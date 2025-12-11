@@ -152,7 +152,7 @@ export default function Home() {
                   <h3 className="promo-card-title">Winter Boots Collection</h3>
                   <p>Stay warm and stylish with durable winter boots.</p>
                   <Link href="/products" className="btn btn-light btn-sm">
-                    CHECK OUT
+                  SHOP NOW
                   </Link>
                 </div>
               </div>
@@ -168,7 +168,7 @@ export default function Home() {
                   <h3 className="promo-card-title">Fashion Essentials</h3>
                   <p>Everything you need to complete your perfect look.</p>
                   <Link href="/products" className="btn btn-light btn-sm">
-                    CHECK OUT
+                  SHOP NOW
                   </Link>
                 </div>
               </div>
@@ -187,7 +187,7 @@ export default function Home() {
                     glam.
                   </p>
                   <Link href="/products" className="btn btn-light btn-sm">
-                    CHECK OUT
+                  SHOP NOW
                   </Link>
                 </div>
               </div>
@@ -206,7 +206,7 @@ export default function Home() {
                     perfect for gifting!!
                   </p>
                   <Link href="/products" className="btn btn-light btn-sm">
-                    CHECK OUT
+                  SHOP NOW
                   </Link>
                 </div>
               </div>
