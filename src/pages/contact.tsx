@@ -1,4 +1,3 @@
-// pages/contact.tsx
 import { FormEvent } from "react";
 
 export default function ContactPage() {

@@ -1,4 +1,3 @@
-// components/ProductDetail.tsx
 import { Product } from "../types";
 import { useCart } from "../context/CartContext";
 

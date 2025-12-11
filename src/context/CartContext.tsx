@@ -1,4 +1,3 @@
-// context/CartContext.tsx
 import { createContext, useContext, useState, ReactNode } from "react";
 
 interface CartItem {
@@ -40,7 +39,9 @@ export function CartProvider({ children }: { children: ReactNode }) {
   const clearCart = () => setCart([]);
 
   return (
-    <CartContext.Provider value={{ cart, addToCart, removeFromCart, clearCart }}>
+    <CartContext.Provider
+      value={{ cart, addToCart, removeFromCart, clearCart }}
+    >
       {children}
     </CartContext.Provider>
   );

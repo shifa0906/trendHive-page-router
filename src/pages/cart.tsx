@@ -1,4 +1,3 @@
-// pages/cart.tsx
 import { useCart } from "../context/CartContext";
 
 export default function CartPage() {

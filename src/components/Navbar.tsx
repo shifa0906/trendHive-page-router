@@ -1,4 +1,3 @@
-// components/Navbar.tsx
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useCart } from "../context/CartContext";
@@ -42,7 +41,6 @@ export default function Navbar() {
           />
         </form>
 
-        {/* Mobile Toggler */}
         <button
           className="navbar-toggler"
           type="button"
@@ -51,7 +49,6 @@ export default function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        {/* Right side – collapsible menu */}
         <div className={`collapse navbar-collapse ${open ? "show" : ""}`}>
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
             {navItems.map((item) => (
@@ -59,7 +56,9 @@ export default function Navbar() {
                 <Link
                   href={item.path}
                   className={`nav-link ${
-                    router.pathname === item.path ? "active text-warning fw-bold" : ""
+                    router.pathname === item.path
+                      ? "active text-warning fw-bold"
+                      : ""
                   }`}
                 >
                   {item.name}
@@ -67,12 +66,13 @@ export default function Navbar() {
               </li>
             ))}
 
-            {/* Cart */}
             <li className="nav-item">
               <Link
                 href="/cart"
                 className={`nav-link d-flex align-items-center gap-1 ${
-                  router.pathname === "/cart" ? "active text-warning fw-bold" : ""
+                  router.pathname === "/cart"
+                    ? "active text-warning fw-bold"
+                    : ""
                 }`}
               >
                 Cart{" "}

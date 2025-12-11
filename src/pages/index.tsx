@@ -1,10 +1,8 @@
-// src/app/page.tsx
 import Link from "next/link";
 
 export default function Home() {
   return (
     <>
-      {/* HERO – blue gradient like your reference */}
       <section className="hero-banner">
         <div className="container hero-banner-inner ">
           <div className="hero-text-block px-3">
@@ -30,7 +28,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Optional hero image – you can swap URL or use /public/hero.jpg */}
           <div className="hero-image-wrapper d-none d-md-block">
             <img
               src="https://images.pexels.com/photos/14991377/pexels-photo-14991377.jpeg"
@@ -41,7 +38,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* STRIP – second banner with text + image like screenshot 2 */}
       <section className="section-strip mt-4">
         <div className="container">
           <div className="row align-items-center g-4">
@@ -72,7 +68,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FEATURES ROW – icons/text like “Worldwide Shipping / Best Quality ...” */}
       <section className="feature-icons-row">
         <div className="container">
           <div className="row text-center g-4">
@@ -109,8 +104,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* PROMO CARDS – like the 3 cards in screenshot 3 */}
-      {/* PROMO CARDS – like the 3 cards in screenshot 3 */}
       <section className="promo-grid-section py-5">
         <div className="container">
           <div className="row g-4">
@@ -121,9 +114,12 @@ export default function Home() {
                   alt="Winter Clothes"
                 />
                 <div className="promo-card-body">
-                  <h3 className="promo-card-title">20% Off On Winter Clothes!</h3>
+                  <h3 className="promo-card-title">
+                    20% Off On Winter Clothes!
+                  </h3>
                   <p>
-                  Stay warm this season with premium jackets and stylish knitted hats
+                    Stay warm this season with premium jackets and stylish
+                    knitted hats
                   </p>
                   <Link href="/products" className="btn btn-light btn-sm">
                     SHOP NOW
@@ -140,9 +136,7 @@ export default function Home() {
                 />
                 <div className="promo-card-body">
                   <h3 className="promo-card-title">Latest Eyewear For You</h3>
-                  <p>
-                  Bold, stylish, and perfect for an edgy winter look.
-                  </p>
+                  <p>Bold, stylish, and perfect for an edgy winter look.</p>
                   <Link href="/products" className="btn btn-light btn-sm">
                     SHOP NOW
                   </Link>
@@ -157,12 +151,8 @@ export default function Home() {
                   alt="winter Boot"
                 />
                 <div className="promo-card-body">
-                  <h3 className="promo-card-title">
-                  Winter Boots Collection
-                  </h3>
-                  <p>
-                  Stay warm and stylish with durable winter boots. 
-                  </p>
+                  <h3 className="promo-card-title">Winter Boots Collection</h3>
+                  <p>Stay warm and stylish with durable winter boots.</p>
                   <Link href="/products" className="btn btn-light btn-sm">
                     CHECK OUT
                   </Link>
@@ -177,13 +167,8 @@ export default function Home() {
                   alt="Suit up"
                 />
                 <div className="promo-card-body">
-                  <h3 className="promo-card-title">
-                  Fashion Essentials
-                  </h3>
-                  <p>
-                  Everything you need to complete your perfect look.
-        
-                  </p>
+                  <h3 className="promo-card-title">Fashion Essentials</h3>
+                  <p>Everything you need to complete your perfect look.</p>
                   <Link href="/products" className="btn btn-light btn-sm">
                     CHECK OUT
                   </Link>
@@ -198,11 +183,10 @@ export default function Home() {
                   alt="Suit up"
                 />
                 <div className="promo-card-body">
-                  <h3 className="promo-card-title">
-                  Winter Makeup Essentials
-                  </h3>
+                  <h3 className="promo-card-title">Winter Makeup Essentials</h3>
                   <p>
-                  Hydrating formulas, rich tones, and long-lasting winter glam. 
+                    Hydrating formulas, rich tones, and long-lasting winter
+                    glam.
                   </p>
                   <Link href="/products" className="btn btn-light btn-sm">
                     CHECK OUT
@@ -218,12 +202,10 @@ export default function Home() {
                   alt="Winter Goodies"
                 />
                 <div className="promo-card-body">
-                  <h3 className="promo-card-title">
-                  Winter Shop Essentials
-                  </h3>
+                  <h3 className="promo-card-title">Winter Shop Essentials</h3>
                   <p>
-                  Cozy mugs,  scented candles & all your winter
-                  favorites — perfect for gifting!!
+                    Cozy mugs, scented candles & all your winter favorites —
+                    perfect for gifting!!
                   </p>
                   <Link href="/products" className="btn btn-light btn-sm">
                     CHECK OUT
