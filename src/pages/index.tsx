@@ -45,8 +45,7 @@ export default function Home() {
               <div className="section-kicker">Limited Time Offer</div>
               <h2 className="section-heading mb-3">Special Edition</h2>
               <p className="lead mb-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              Upgrade your style with our exclusive Special Edition T-shirt — crafted for comfort, designed for everyday confidence.
               </p>
               <p className="mb-4">
                 Buy this T-shirt at <strong>20% discount</strong>, use code{" "}
@@ -75,8 +74,7 @@ export default function Home() {
               <div className="feature-card-icon">🌍</div>
               <div className="feature-card-title">Worldwide Shipping</div>
               <div className="feature-card-text">
-                It elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
-                leo.
+              We deliver to over 150 countries with reliable, fast international shipping.
               </div>
             </div>
             <div className="col-md-3 feature-card">
